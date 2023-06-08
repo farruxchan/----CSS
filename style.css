@@ -1,0 +1,96 @@
+li:nth-child(2n+1) {
+    color: lightcoral
+}
+
+li:hover {
+    font-weight: bold;
+    color:chartreuse;
+    font-size: 25px;
+}
+
+li {
+    transition: 200ms;
+}
+
+.fara:hover {
+    font-weight: lighter;
+}
+
+.fara:first-child {
+color: aqua
+}
+
+.fara:last-child {
+    color:darkorchid
+}
+
+.fer:hover {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fer:first-child {
+    color: chocolate
+}
+
+#farrukh {
+    width: 200px;
+}
+
+.assa:first-child {
+    color:deepskyblue
+}
+
+.assa:last-child {
+    color:deeppink
+}
+
+.assa:nth-child(3n+1) {
+    color:darkorange
+}
+
+.assa:nth-child(3n+2) {
+    color:deepskyblue
+}
+
+.assa:nth-child(3n)
+
+.assa:hover {
+font-size: 50px;
+font-weight: bolder;
+}
+
+.assa {
+    transition: 1s;
+}
+
+.call:active {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.call {
+    transition: 200ms;
+}
+
+.war:hover {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.war:nth-child(2n+1) {
+    color:darkgreen
+}
+
+.war {
+transition: 200ms;
+}
+
+ol {
+    list-style-type: none;
+}
+
+li::before {
+    content: "→";
+    margin-right: 30px;
+}
